@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>501</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Dashboard Operator</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>501</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuMaster_Data">
+    <property name="title">
+     <string>Master Data</string>
+    </property>
+    <addaction name="actionMahasiswa_2"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuMaster_Data"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionMenu_Operator_1">
+   <property name="text">
+    <string>Menu Operator 1</string>
+   </property>
+  </action>
+  <action name="actionMenu_Operator_2">
+   <property name="text">
+    <string>Menu Operator 2</string>
+   </property>
+  </action>
+  <action name="actionMenu_Operator_3">
+   <property name="text">
+    <string>Menu Operator 3</string>
+   </property>
+  </action>
+  <action name="actionMahasiswa">
+   <property name="text">
+    <string>Mahasiswa</string>
+   </property>
+  </action>
+  <action name="actionMahasiswa_2">
+   <property name="text">
+    <string>Mahasiswa</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
